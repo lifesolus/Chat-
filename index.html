@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Чат для OBS</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="user-chat-container">
+        <input type="text" id="nickname-input" placeholder="Ваш ник...">
         <div id="user-chat"></div>
         <input type="text" id="user-input" placeholder="Введите сообщение...">
         <button id="send-button">Отправить</button>
     </div>
-    
+
+    <button id="toggle-floating">💬 Чат</button>
+
     <div id="chat-container">
         <div id="chat"></div>
         <div id="drag-handle">☰</div>
